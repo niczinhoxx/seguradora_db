@@ -97,42 +97,60 @@ Implementação de uma trigger que:
 
 
 ---
-
 ## 🚀 Como Executar
 
-1. Criar o banco de dados no PostgreSQL
-2. Executar os scripts na seguinte ordem:
+1. Crie o banco de dados no PostgreSQL:
 
 ```sql
-1. base.sql
-2. dados.sql
-3. automatizacoes.sql
-4. consultas.sql
-5. relatorios.sql
+CREATE DATABASE seguradora_db;
+```
 
+2. Conecte ao banco:
+
+```sql
+\c seguradora_db
+```
+
+3. Execute os scripts na seguinte ordem:
+
+- `base.sql` → criação das tabelas  
+- `dados.sql` → inserção de dados  
+- `automatizacoes.sql` → regras automáticas  
+- `consultas.sql` → consultas  
+- `relatorios.sql` → criação das views  
+
+---
 
 ## 💼 Aplicação no Mundo Real
 
 Este projeto simula cenários reais utilizados por empresas do setor de seguros, incluindo:
 
-Gestão de sinistros
-Controle financeiro
-Automação de processos
-Análise de dados para tomada de decisão
+- Gestão de sinistros  
+- Controle financeiro  
+- Automação de processos  
+- Análise de dados para tomada de decisão  
 
-👨‍💻 Autor
+---
 
-Nicolas da Silva Floriano
-📧 devnicolassilva@gmail.com
+## 👨‍💻 Autor
 
+**Nicolas Da Silva floriano**  
+📧 devnicolassilva@gmail.com  
 🔗 LinkedIn: https://www.linkedin.com/in/nicolas-da-silva-floriano-a55b632b9/
 
+---
 
-🚀 Status do Projeto
+## 🚀 Status do Projeto
 
-✅ Finalizado
+✅ Finalizado  
+
 📈 Possíveis melhorias futuras:
+- Integração com API backend  
+- Dashboard visual  
+- Otimização de consultas  
 
-Integração com API backend
-Dashboard visual
-Otimização de consultas
+---
+
+## 💡 Considerações Finais
+
+Projeto desenvolvido com foco em aprendizado prático e aplicação de conceitos fundamentais de banco de dados, simulando um ambiente real de negócio.
